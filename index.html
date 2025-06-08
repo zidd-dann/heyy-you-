@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYO JADI PACARKU!!!</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #3a83f8;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .question {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #222;
+        }
+        .buttons {
+            padding-right: 120px;
+            position: relative;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px;
+            position: absolute;
+        }
+        .yes {
+            background-color: #ffee38;
+            color: rgb(74, 74, 255);
+            position: relative;
+            font-weight: bold;
+
+        }
+        .no {
+            background-color: #ffee38;
+            color:rgb(74, 74, 255);
+            position:  absolute;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="pocoyo.png" alt="Cute Image" width="25%">
+        <div class="question">Ayoo jadi pacarku, aku maksa!</div>
+        <div class="buttons">
+            <a href="heart.html"><button class="btn yes">Ayooo</button></a>
+            <button class="btn no" id="noBtn">Gamau</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById("noBtn").addEventListener("mouseover", function() {
+            let x = Math.random() * window.innerWidth - 100;
+            let y = Math.random() * window.innerHeight - 50;
+            this.style.left = `${x}px`;
+            this.style.top = `${y}px`;
+        });
+    </script>
+</body>
+</html>
+
+
+
+<!-- ffee38
+296df6 -->
