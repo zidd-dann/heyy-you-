@@ -20,9 +20,10 @@ body{
     height: 100px;
     position: absolute;
     top: 40%;
+    position: center;
     left: 37%;
     background: #ff3e3e;
-    transition: 1s;
+    transition: 3s;
     transform-origin: right bottom;
 }
 
@@ -51,3 +52,9 @@ body{
 
 }
  
+@media screen and (max-width: 320px) {
+    .heart {
+        left: 0;
+    }
+    
+}
