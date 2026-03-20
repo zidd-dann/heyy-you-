@@ -52,7 +52,7 @@ body{
 
 }
  
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .heart {
         left: 0;
     }
